@@ -6,6 +6,10 @@ Estefany Yurani Tulcan Diaz
 
 estefanydiaz1104@gmail.com
 
+# Nota:
+
+Para ejecutar los test es necesario ejecutar el npm install
+
 # Explicación de ejercicios
 
 ## Ejercicio 1:
@@ -23,7 +27,7 @@ finalmente con el join unimos las palabras filtradas en una sola cadena.
 Se convierte las cadenas de texto en tipo Date, luego mediante la funcion getTime traemos en milisegundos la fecha del objeto Date y calculamos la diferencia entre las dos fechas, todo esto en milisegundos.
 Finalmente como un dia tiene 86400000, hacemos el calculo matemático dividiendo el resultado entre las fechas entre 86400000 milisegundos que tiene un día y redondeamos este valor con Math.floor
 
-##Ejercicio 4:
+## Ejercicio 4:
 
 En la función fecthCats se hace la petición al endpoint, se hace uso de el bloque try/cacth para manejar la petición en caso de falla.
 En la función filterCats traemos la data de la petición anterior, luego hacemos el ordenamiento donde se devuelve true si el pattern del item es mayor al pattern del cat actual, aquí busca el primer elemento en orderCats que tenga un pattern mayor que el actual, si no se encuentra devuelve -1 y si se encuentra devuelve el indice correspondiente.
